@@ -1,5 +1,5 @@
-baseurl = "http://www.example.com"
-title = "johndoe"
+baseurl = "https://remy.marronnier.dev"
+title = "Rémy Marronnier - Nantes, France"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -11,19 +11,17 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
-
 [params]
-    author = "John Doe"
-    info = "Full Stack DevOps and Magician"
-    description = "John Doe's personal website"
-    keywords = "blog,developer,personal"
-    avatarurl = "images/avatar.jpg"
+    author = "Rémy Marronnier"
+    info = "Fullsmile developer"
+    description = "Yet another dev in Nantes"
+    keywords = "Crystal, vuejs, php"
+    # avatarurl = "images/avatar.jpg"
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = "Enter a text here."
+    footercontent = "Reach out :-)"
 
     hidecredits = false
     hidecopyright = false
@@ -38,17 +36,7 @@ disqusShortname = "yourdiscussshortname"
     name = "Github"
     icon = "fab fa-github fa-2x"
     weight = 1
-    url = "https://github.com/johndoe/"
-[[params.social]]
-    name = "Gitlab"
-    icon = "fab fa-gitlab fa-2x"
-    weight = 2
-    url = "https://gitlab.com/johndoe/"
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
-    weight = 3
-    url = "https://twitter.com/johndoe/"
+    url = "https://github.com/rmarronnier/"
 
 # Menu links
 [[menu.main]]
@@ -59,3 +47,12 @@ disqusShortname = "yourdiscussshortname"
     name = "About"
     weight = 2
     url = "/about/"
+[[menu.main]]
+    name = "Resume"
+    weight = 0
+    url = "/remy-marronnier.pdf"
+[[menu.main]]
+    name = "Projects"
+    weight = 4
+    url = "/projects/"
+
